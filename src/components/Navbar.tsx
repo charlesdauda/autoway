@@ -10,7 +10,7 @@ const NavBar = () => {
 
     const navList : NavList[] = [
         {name: "Home", link: "home"},
-        {name: "About", link: "about"},
+        {name: "About", link: "#about"},
         {name: "Shop", link: "shop"}
     ]
 
