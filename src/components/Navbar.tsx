@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import navlogo from '../assets/images/autowaylogo.png';
 import { Mail, Phone } from 'lucide-react';
+import { FaFacebookF, FaTiktok } from 'react-icons/fa';
+import { BsInstagram } from 'react-icons/bs';
 interface NavList {
     name: string;
     link: string;
@@ -38,10 +40,17 @@ const NavBar = () => {
                             <span>info@autoway.com</span>
                         </a>
                     </div>
-                    <span className="text-white space-x-4 font-semibold">
-                        <a href="register" className="transition hover:text-slate-400">Register</a>
-                        <a href="login" className="transition hover:text-slate-400">Login</a>
-                    </span>
+                    <div className="flex items-center gap-10">
+                        <span className="flex items-center gap-4 font-semibold">
+                            <a href="register" className="transition hover:text-slate-400">Register</a>
+                            <a href="login" className="transition hover:text-slate-400">Login</a>
+                        </span>
+                        <a href="https://www.facbook.com" target="_blank" rel="noreferrer" className="flex ml-8 items-center gap-2 text-white">
+                            <FaFacebookF size={16} className="transition hover:text-slate-400" />
+                            <BsInstagram size={16} className="transition hover:text-slate-400" />
+                            <FaTiktok size={16} className="transition hover:text-slate-400" />
+                        </a>
+                    </div>
                 </div>
             </div>
 
