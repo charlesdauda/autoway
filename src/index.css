@@ -5,13 +5,16 @@
   --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
   --font-body: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
   --font-heading: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
-  --color-brand: #0b1f3a;
-  --color-brand-dark: #061426;
+  /* Palette: deep navy/slate foundation, warm amber CTA accents, and white/slate-50 neutrals. */
+  --color-brand: #0f172a;
+  --color-brand-dark: #020617;
+  --color-accent: #f59e0b;
+  --color-accent-dark: #d97706;
 }
 
 body {
   font-family: var(--font-body);
-  background-color: white;
+  background-color: #f8fafc;
 }
 
 h1, h2, h3{

@@ -24,7 +24,6 @@
 - [X] Install React Icons
 - [X] Configure frontend folder structure
 - [] Configure routing
-- [] Create reusable UI components
 
 ### Backend Setup
 
@@ -172,6 +171,7 @@
 - [] Allow user to create a new password
 - [] Hash new password
 - [] Invalidate previous reset token
+
 ## Authorization
  
 - [] Implement role-based authorization

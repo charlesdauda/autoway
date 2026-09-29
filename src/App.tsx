@@ -1,15 +1,15 @@
 import Hero from "./components/Hero";
 import NavBar from "./components/Navbar";
-import BrandShowcase from "./components/BrandShowcase";
 import AboutUs from "./components/AboutUs";
+import Services from "./components/Services";
 
 const App = () => {
   return (
     <>
       <NavBar />
-      <main className="pt-24">
+      <main>
         <Hero />
-        <BrandShowcase />
+        <Services />
         <AboutUs />
       </main>
     </>

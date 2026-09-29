@@ -41,11 +41,11 @@ const AboutUs = () => {
                             >
                                 <span
                                     className={`inline-flex h-12 w-12 items-center justify-center rounded-xl ${
-                                        isFeatured ? 'bg-white/15' : 'bg-blue-50'
+                                            isFeatured ? 'bg-white/15' : 'bg-blue-50'
                                     }`}
                                 >
                                     <Icon
-                                        className={`h-6 w-6 ${isFeatured ? 'text-white' : 'text-blue-900'}`}
+                                        className={`h-6 w-6 ${isFeatured ? 'text-white' : 'text-accent'}`}
                                         aria-hidden="true"
                                     />
                                 </span>
@@ -55,7 +55,7 @@ const AboutUs = () => {
                                 </h3>
                                 <p
                                     className={`mt-3 text-sm leading-relaxed ${
-                                        isFeatured ? 'text-white' : 'text-black'
+                                        isFeatured ? 'text-white' : 'text-slate-500'
                                     }`}
                                 >
                                     {description}
@@ -64,7 +64,7 @@ const AboutUs = () => {
                                 <a
                                     href="#"
                                     className={`mt-6 inline-block text-sm font-bold ${
-                                        isFeatured ? 'text-white' : 'text-brand'
+                                            isFeatured ? 'text-white' : 'text-accent'
                                     }`}
                                 >
                                     Read More
