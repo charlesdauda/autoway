@@ -35,7 +35,7 @@ const Services = () => {
                         <h3 className={`mt-6 text-xl font-bold sm:text-2xl ${isDark ? 'text-white' : 'text-slate-900'}`}>
                             {title}
                         </h3>
-                        <p className={`mt-3 max-w-sm text-sm leading-relaxed ${isDark ? 'text-white' : 'text-slate-500'}`}>
+                        <p className={`mt-3 max-w-sm text-sm leading-relaxed ${isDark ? 'text-white' : 'text-slate-700'}`}>
                             {description}
                         </p>
 
