@@ -183,10 +183,10 @@
  
 # Phase 4 — Landing Page & Public UI
  
-- [] Design landing page
-- [] Create navigation bar
-- [] Create hero section
-- [] Add car showcase section
+- [X] Design landing page
+- [X] Create navigation bar
+- [X] Create hero section
+- [X] Add car showcase section
 - [] Add rental/sales section
 - [] Add features section
 - [] Add reviews section

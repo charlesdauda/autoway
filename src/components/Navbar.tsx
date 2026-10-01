@@ -13,8 +13,7 @@ const NavBar = () => {
         { name: "Home", link: "home" },
         { name: "About", link: "#about" },
         { name: "Shop", link: "#services" },
-        { name: "Track Order", link: "track-order" },
-        { name: "Contact", link: "contact" },
+        { name: "Track Order", link: "track-order" }
     ];
 
     useEffect(() => {
