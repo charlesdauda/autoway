@@ -84,7 +84,7 @@ const CarShowcase = () => {
 
           <a
             href="#"
-            className="inline-block w-fit bg-accent hover:bg-accent-dark transition px-10 py-5 text-sm font-bold uppercase tracking-widest text-black"
+            className="inline-block w-fit rounded-sm bg-accent hover:bg-accent-dark transition px-10 py-5 text-sm font-bold uppercase tracking-widest text-black"
           >
             View all cars
           </a>
@@ -98,7 +98,7 @@ const CarShowcase = () => {
               type="button"
               aria-pressed={filter === item}
               onClick={() => setFilter(item)}
-              className={`px-6 py-3 text-sm font-bold uppercase tracking-widest ${
+              className={`px-6 py-3 text-sm font-bold uppercase tracking-widest rounded-sm ${
                 filter === item
                   ? "bg-slate-900 text-white"
                   : "bg-white text-slate-600"
@@ -124,7 +124,7 @@ const CarShowcase = () => {
                   loading="lazy"
                   className="h-full w-full object-cover"
                 />
-                <span className="absolute left-0 top-6 bg-accent px-4 py-2 text-xs font-bold uppercase tracking-widest text-black">
+                <span className="absolute left-0 top-6 bg-accent px-4 py-2 text-xs font-bold uppercase tracking-widest text-black rounded-sm">
                   For {car.listing}
                 </span>
               </div>
@@ -165,7 +165,7 @@ const CarShowcase = () => {
 
                   <a
                     href="#"
-                    className="bg-accent hover:bg-accent-dark transition px-6 py-3 text-xs font-bold uppercase tracking-widest text-black"
+                    className=" rounded-sm bg-accent hover:bg-accent-dark transition px-6 py-3 text-xs font-bold uppercase tracking-widest text-black"
                   >
                     {car.listing === "Rent" ? "Book now" : "View car"}
                   </a>
