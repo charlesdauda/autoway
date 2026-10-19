@@ -24,7 +24,7 @@ const Hero = () => {
                     <div className="mt-8 flex flex-wrap items-center gap-4">
                         <a
                             href="#shop"
-                            className="inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3.5 text-sm font-semibold text-slate-950 transition hover:bg-accent-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                            className="inline-flex items-center gap-2 rounded-sm bg-accent px-6 py-3.5 text-sm font-semibold text-slate-950 transition hover:bg-accent-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                         >
                             Browse Cars
                         </a>

@@ -30,7 +30,7 @@ const AboutUs = () => {
 
           <a
             href="#"
-            className="mt-10 inline-block bg-accent px-10 py-5 text-sm font-bold uppercase tracking-widest text-black transition-colors duration-300 hover:bg-accent-dark focus-visible:outline  focus-visible:outline-offset-2 focus-visible:outline-slate-900"
+            className="mt-10 inline-block rounded-sm bg-accent px-10 py-5 text-sm font-bold uppercase tracking-widest text-black transition-colors duration-300 hover:bg-accent-dark focus-visible:outline  focus-visible:outline-offset-2 focus-visible:outline-slate-900"
           >
             More Info
           </a>

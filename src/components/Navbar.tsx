@@ -65,7 +65,7 @@ const NavBar = () => {
                         </a>
                         <a
                             href="register"
-                            className="rounded-lg bg-accent px-5 py-2.5 text-slate-950 transition hover:bg-accent-dark"
+                            className="rounded-sm bg-accent px-5 py-2.5 text-slate-950 transition hover:bg-accent-dark"
                         >
                             Register
                         </a>
